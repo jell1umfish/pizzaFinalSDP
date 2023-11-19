@@ -1,6 +1,6 @@
-class Fanta extends Drink {
-    public Fanta(){
-        description = "Fanta";
+class Coffee extends Drink {
+    public Coffee(){
+        description = "Coffee";
     }
     @Override
     public double cost() {

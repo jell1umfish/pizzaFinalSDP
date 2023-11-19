@@ -1,6 +1,6 @@
 class Coke extends Drink {
     public Coke(){
-        description = "Coca-cola";
+        description = "Coke";
     }
     @Override
     public double cost() {

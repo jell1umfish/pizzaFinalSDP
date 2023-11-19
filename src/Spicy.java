@@ -1,6 +1,6 @@
-class FourSeasons extends Pizza {
-    public FourSeasons() {
-        description = "FourSeasons";
+class Spicy extends Pizza {
+    public Spicy() {
+        description = "Spicy";
     }
 
     public double cost() {

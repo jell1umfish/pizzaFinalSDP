@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface PaymentStrategy {
+// Strategy Pattern
+
+interface PaymentStrategy {
+    void pay(int amount);
 }

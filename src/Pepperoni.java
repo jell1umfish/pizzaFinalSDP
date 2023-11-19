@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Pepperoni {
+class Pepperoni extends Pizza {
+    public Pepperoni() {
+        description = "Pepperoni";
+    }
+
+    public double cost() {
+        return 1790;
+    }
 }

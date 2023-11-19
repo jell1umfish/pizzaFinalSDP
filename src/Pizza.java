@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Pizza {
+abstract class Pizza {
+    String description = "Unknown Pizza";
+
+    public String getDescription() {
+        return description;
+    }
+
+    public abstract double cost();
 }

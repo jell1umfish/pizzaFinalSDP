@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public interface OrderObserver {
+
+
+// Observer Pattern
+
+
+interface OrderObserver {
+    void update(Order order);
 }
